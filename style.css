@@ -3,3 +3,9 @@ font-weight: 10px;
 font-size: 3em;
 font-style: italic;
 }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
