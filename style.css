@@ -4,6 +4,8 @@ font-size: 3em;
 font-style: italic;
 }
 .center {
+  position: absolute;
+  top: 250px;
   display: block;
   left-margin: auto;
   right-margin: auto;
