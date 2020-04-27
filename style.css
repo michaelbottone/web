@@ -4,12 +4,14 @@ font-size: 3em;
 font-style: italic;
 }
 .center {
-  position: relative;
-  top: 250px;
-  right 100px;
   display: block;
   left-margin: auto;
   right-margin: auto;
   width: 50%;
+  
+  #image{
+    position: absolute;
+    right: 200px;
+    
   
 }
