@@ -4,6 +4,9 @@ font-size: 3em;
 font-style: italic;
 }
 .center {
-  text-align: center;
+  display: block;
+  left-margin: auto;
+  right-margin: auto;
+  width: 50%;
   
 }
