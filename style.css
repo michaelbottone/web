@@ -1,11 +1,12 @@
-h2 {
+th2 {
 font-weight: 10px;
 font-size: 3em;
 font-style: italic;
 }
 .center {
-  position: absolute;
+  position: relative;
   top: 250px;
+  right 100px;
   display: block;
   left-margin: auto;
   right-margin: auto;
