@@ -3,6 +3,9 @@ font-weight: 10px;
 font-size: 3em;
 font-style: italic;
 }
+tb {
+  border: solid 1px rgb(255,255,255);
+}
 .center {
   display: block;
   left-margin: auto;
