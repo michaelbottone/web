@@ -1,20 +1,71 @@
-th2 {
-font-weight: 10px;
-font-size: 3em;
-font-style: italic;
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Courier, serif, serif;
+  margin: 2em;
+  line-height: 2em;
+  font-size: 1em;
+  text-align: center;
 }
-table, td, th, tr {
-  border: 1px solid rgb(0,0,0);
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  text-align: center;
 }
-.center {
-  display: block;
-  left-margin: auto;
-  right-margin: auto;
-  width: 50%;
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#personal-training {
+  position: absolute;
+  top: 180px;
+  right: 200px;
+  border: 3px dotted black;
+  padding: 15px;
+  background-color: #fff450;
+  width: 30%;
+  box-shadow: 10px 10px grey;
   
-  #image{
-    position: absolute;
-    right: 200px;
-    
+}
+
+#web-dev {
+  position: absolute;
+  top: 400px;
+  left: 90px;
+  border: 3px dotted black;
+  background-color: orange;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 10px 10px grey;
   
+}
+#AV-Multimedia{
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  border: 3px dotted black;
+  background-color: pink;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 10px 10px grey;
+}
+#contact-button{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  top: 650px;
+  right: 50%;
+  border: 3px dotted black;
+  background-color: black;
+  padding: 5px;
+  width: 8%;
+  box-shadow: 5px 5px grey;
+  
+  
+}
+.caption {
+  font-style: italic;
 }
