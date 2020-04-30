@@ -1,39 +1,64 @@
-<html>
-<title>
-  Welcome
-</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<body>
-  <div class="center">
-  <img id="image" src="/web/welcome.png" alt="welcome to michael's portfolio" width="400">
-  </div>
-  <div class="center">
-    <h2>Hello, and welcome to my site!</h2>
-<p> My name is Michael, I'm available for web design, including UX, design, and content updates.
-  <br>
-  <a href="/web/my-work.html">You can see my work here </a>
-</p>
-  </div>
-  <div class="center">
-  <table>
-    <th> 
-      <tr>
-        Table of contents
-      </tr>
-    </th>
-    <tr>
-      <td>Website 1</td>
-      <td><a href="/web/my-work.html">Click here</a></td>
-    </tr>
-     <tr>
-      <td>Website 2</td>
-       <td>Click here</td>
-    </tr>
-     <tr>
-      <td>Website 3</td>
-       <td>Click here</td>
-    </tr>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Hello, and Welcome!</h1>
+    <div id="paragraph">
+     <p>
+      My name is Michael, I'm 35 years old 
+    </p>
     </div>
-</body>
+    
+<a href="/personal-training.html" target="_blank">
+    <div id="personal-training">
+      
+      <h2>Personal Training</h2>
+      <p>
+        I'm a NASM certified Personal Trainer, available for virtual
+        consultations and virtually guided sessions.
+        <br />
+        Prices start at $40/hr. Buy 3 sessions and your consultation is free!
+      </p>
+    </div>
+  </a>
+<a href="/web-dev.html" target="_blank">
+<div id="web-dev">
+  <h2>
+    Web Development
+  </h2>
+  <p>
+    
+  I'm available to help with web development, including HTML, CSS, and JS. Contact me at <a href="mailto:bottone@gmail.com">bottone@gmail.com</a> for rates.
+  </p>
+    </div>
+    </a>
+      <a href="/AVandMultimedia.html" target="_blank">
+    <div id="AV-Multimedia">
+      
+    <h2>
+       A/V & Multimedia
+      </h2>
+      I'm available for consulting for all your home broadcasting and producing needs. please email bottone@gmail.com for rates!
+    </div>
+    </a>
+   
+    <button type="button" id="contact-button">
+      Click here to contact me
+    </button>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:5px;right:10px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
 </html>
